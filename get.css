@@ -1,0 +1,108 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Form container */
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+select, input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FFEB3B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #FBC02D;
+}
+
+/* Styling for "Home page" button */
+.signin-btn {
+    background-color: #ddd;
+    color: #333;
+    padding: 12px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.signin-btn:hover {
+    background-color: #bbb;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+/* Styling for the user name section at the top */
+.user-info {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #FFEB3B;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.user-info h2 {
+    margin: 0;
+    color: #333;
+}

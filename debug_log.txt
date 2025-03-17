@@ -1,0 +1,9 @@
+Inputs - District: 1, College: 4, Batch: 2004
+Inputs - District: 1, College: 12, Batch: 2004
+Inputs - District: 1, College: 10, Batch: 2005
+District: 1, College: 12, Batch: 2004
+Inputs - District: 1, College: 12, Batch: 2004
+Inputs - District: 1, College: 4, Batch: 2004
+Inputs - District: 1, College: 4, Batch: 2004
+Inputs - District: 1, College: 4, Batch: 2004
+Inputs - District: 1, College: 12, Batch: 2004

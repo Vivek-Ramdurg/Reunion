@@ -1,0 +1,113 @@
+/* General Body and Dashboard Background Gradient */
+body {
+    background: linear-gradient(135deg, #ccd4d3, #e4ff4a); /* Green gradient */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo a {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.signin-btn:hover {
+    background-color: #388E3C;
+}
+
+/* Main Content Section */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    padding: 0 50px;
+}
+
+/* Big Letters Section */
+.bigletters {
+    text-align: left;
+    width: 50%;
+    padding-right: 20px;
+}
+
+.bigletters h1 {
+    font-size: 4rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.bigletters p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+/* Get Started Button Section */
+.get-started-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.get-started-btn:hover {
+    background-color: #388E3C;
+}
+
+/* Image Section */
+.image-container {
+    width: 50%;
+    text-align: right;
+}
+
+.side-image {
+    width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    max-width: none; /* Removes any width restrictions */
+    object-fit: cover; /* Ensures image covers the container */
+    animation: zoomIn 1s ease-in-out;
+}
+
+/* Zoom In Animation for Image */
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
